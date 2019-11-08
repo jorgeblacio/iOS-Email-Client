@@ -459,3 +459,16 @@
 "Unable to add label" = "";
 "EDIT" = "Edit";
 "EDIT_LABEL_DIALOG_TITLE" = "Edit Label Name";
+"YOU_NEED_PRO_TITLE" = "You Need Pro";
+"CRIPTEXT_PRO" = "Criptext Pro";
+"CRIPTEXT_PRO_USE" = "Use";
+"CRIPTEXT_PRO_REMOVE" = "Remove";
+"YOU_NEED_PRO_BUTTON" = "Get Pro";
+"YOU_NEED_PRO_NO_THANKS" = "No thanks";
+"YOU_NEED_PRO_MESSAGE_FIXED" = "Get this feature plus more when you upgrade to ";
+"YOU_NEED_PRO_MESSAGE_READ_RECEIPTS" = " to know when your emails are read by recipients with blue check marks.";
+"YOU_NEED_PRO_MESSAGE_UNSEND" = " to correct a mistake and take back an email after you send it."
+"YOU_NEED_PRO_MESSAGE_REMINDERS" = " to get notified when it's time to follow-up a conversation.";
+"YOU_NEED_PRO_MESSAGE_CLOUD_BACKUP" = " to store your entire inbox on Drive so that data is always backed up.";
+"YOU_NEED_PRO_MESSAGE_SEND_LATER" = " to schedule an email to be sent at a later time.";
+"YOU_NEED_PRO_MESSAGE_FOOTER" = " when emailing non-Criptext addresses.";

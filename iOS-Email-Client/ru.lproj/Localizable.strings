@@ -459,3 +459,16 @@
 "Unable to add label" = "";
 "EDIT" = "редактировать";
 "EDIT_LABEL_DIALOG_TITLE" = "Изменить имя ярлыка";
+"YOU_NEED_PRO_TITLE" = "Вам нужен про";
+"CRIPTEXT_PRO" = "Criptext Pro";
+"CRIPTEXT_PRO_USE" = "Используйте";
+"CRIPTEXT_PRO_REMOVE" = "Удалить";
+"YOU_NEED_PRO_BUTTON" = "Get Pro";
+"YOU_NEED_PRO_NO_THANKS" = "пасибо, не надо";
+"YOU_NEED_PRO_MESSAGE_FIXED" = "Получите эту функцию и многое другое при обновлении до ";
+"YOU_NEED_PRO_MESSAGE_READ_RECEIPTS" = " , чтобы узнать, когда ваши электронные письма читаются получателями с синими галочками.";
+"YOU_NEED_PRO_MESSAGE_UNSEND" = " , чтобы узнать, когда ваши электронные письма читаются получателями с синими галочками."
+"YOU_NEED_PRO_MESSAGE_REMINDERS" = " , чтобы получать уведомления, когда пришло время следить за беседой.";
+"YOU_NEED_PRO_MESSAGE_CLOUD_BACKUP" = "  чтобы сохранить всю папку «Входящие» на диске, чтобы всегда было выполнено резервное копирование данных.";
+"YOU_NEED_PRO_MESSAGE_SEND_LATER" = " , чтобы запланировать отправку электронного письма позднее.";
+"YOU_NEED_PRO_MESSAGE_FOOTER" = " при отправке по электронной почте адресов, отличных от Criptext.";

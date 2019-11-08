@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		345B58382375C6E9000CC4D8 /* CriptextProPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345B58372375C6E9000CC4D8 /* CriptextProPopover.swift */; };
 		347A659922E126F1002D9151 /* LinkFileHeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A659822E126F1002D9151 /* LinkFileHeaderData.swift */; };
 		347CC85C236B43D900A2FA99 /* LabelOptionsInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347CC85B236B43D900A2FA99 /* LabelOptionsInterface.swift */; };
 		34857664235918BC002E2049 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5FD825205C857C000E5F14 /* Utils.swift */; };
 		348DD9DA2361FF1C000DC704 /* GenericSingleInputPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348DD9D92361FF1C000DC704 /* GenericSingleInputPopover.swift */; };
 		3498992A22EA17C900FB00DC /* RemoveDevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3498992922EA17C900FB00DC /* RemoveDevicesViewController.swift */; };
+		34A3424A2374BC22001A1A20 /* CriptextProPopover.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34A342492374BC22001A1A20 /* CriptextProPopover.xib */; };
 		34C4173622BC20530095DF23 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C4172F22BC20520095DF23 /* FirebaseCoreDiagnostics.framework */; };
 		34C4173722BC20530095DF23 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C4173022BC20520095DF23 /* FirebaseInstanceID.framework */; };
 		34C4173822BC20530095DF23 /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C4173122BC20520095DF23 /* FirebaseNanoPB.framework */; };
@@ -529,6 +531,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		345B58372375C6E9000CC4D8 /* CriptextProPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriptextProPopover.swift; sourceTree = "<group>"; };
 		347A659822E126F1002D9151 /* LinkFileHeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkFileHeaderData.swift; sourceTree = "<group>"; };
 		347CC8012367A14A00A2FA99 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/ConnectView.strings; sourceTree = "<group>"; };
 		347CC8022367A14B00A2FA99 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/ContactsDetailUIPopover.strings; sourceTree = "<group>"; };
@@ -620,6 +623,7 @@
 		347CC85B236B43D900A2FA99 /* LabelOptionsInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelOptionsInterface.swift; sourceTree = "<group>"; };
 		348DD9D92361FF1C000DC704 /* GenericSingleInputPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericSingleInputPopover.swift; sourceTree = "<group>"; };
 		3498992922EA17C900FB00DC /* RemoveDevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDevicesViewController.swift; sourceTree = "<group>"; };
+		34A342492374BC22001A1A20 /* CriptextProPopover.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CriptextProPopover.xib; sourceTree = "<group>"; };
 		34C4172F22BC20520095DF23 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
 		34C4173022BC20520095DF23 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
 		34C4173122BC20520095DF23 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseNanoPB.framework; sourceTree = "<group>"; };
@@ -1519,6 +1523,8 @@
 				A76D3039225671DC004F8747 /* BackupHeaderView.swift */,
 				A721B34D225E9418004528B4 /* RestoreUIPopover.xib */,
 				A721B347225D2DA5004528B4 /* RestoreUIView.swift */,
+				345B58372375C6E9000CC4D8 /* CriptextProPopover.swift */,
+				34A342492374BC22001A1A20 /* CriptextProPopover.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -1947,6 +1953,7 @@
 				A7D2DE6F21C42BB6002ED6F8 /* OptionsPickerUIPopover.xib in Resources */,
 				7C4D33C1212C733700045B09 /* GenericAlertUIPopover.xib in Resources */,
 				A7FFCF3C217A913900FFFDFF /* PasswordUIPopover.xib in Resources */,
+				34A3424A2374BC22001A1A20 /* CriptextProPopover.xib in Resources */,
 				A72FBF31223962A0002A710D /* AccountsFooterCell.xib in Resources */,
 				7C1E987A20C9B96A003205F8 /* showmore.png in Resources */,
 				A7FFCF2D217A910100FFFDFF /* EmailSetPasswordUIPopover.xib in Resources */,
@@ -2154,6 +2161,7 @@
 				A71F8BAD219B2239002D93CB /* DummySession.swift in Sources */,
 				A7FFCF68217F735100FFFDFF /* ControllerMessage.swift in Sources */,
 				CF96000221FA7D65001FD5A3 /* CIDSchemeHandler.swift in Sources */,
+				345B58382375C6E9000CC4D8 /* CriptextProPopover.swift in Sources */,
 				7C72F16F2141997E00A7DDEA /* InboxHeaderUITableCell.swift in Sources */,
 				7C7F2FEF20B4BE6400A2CB32 /* LabelsLabelTableViewCell.swift in Sources */,
 				A72C185721AF165700D899EE /* MailboxNewsHeaderUIView.swift in Sources */,

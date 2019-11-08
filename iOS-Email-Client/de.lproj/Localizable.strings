@@ -459,3 +459,17 @@
 "Unable to add label" = "Label kann nicht hinzugefügt werden";
 "EDIT" = "Bearbeiten";
 "EDIT_LABEL_DIALOG_TITLE" = "Label Name Bearbeiten";
+"YOU_NEED_PRO_TITLE" = "Sie brauchen Pro";
+"CRIPTEXT_PRO" = "Criptext Pro";
+"CRIPTEXT_PRO_USE" = "Verwenden Sie";
+"CRIPTEXT_PRO_REMOVE" = "Entfernen";
+"YOU_NEED_PRO_BUTTON" = "Werde Pro";
+"YOU_NEED_PRO_NO_THANKS" = "Nein Danke";
+"YOU_NEED_PRO_MESSAGE_FIXED" = "Holen Sie sich diese Funktion und mehr, wenn Sie ein Upgrade auf ";
+"YOU_NEED_PRO_MESSAGE_READ_RECEIPTS" = " , um zu erfahren, wann Ihre E-Mails von Empfängern mit blauen Häkchen gelesen werden.";
+"YOU_NEED_PRO_MESSAGE_UNSEND" = " , um einen Fehler zu korrigieren und eine E-Mail zurückzunehmen, nachdem Sie sie gesendet haben."
+"YOU_NEED_PRO_MESSAGE_REMINDERS" = " , um benachrichtigt zu werden, wenn es Zeit ist, eine Unterhaltung zu verfolgen.";
+"YOU_NEED_PRO_MESSAGE_CLOUD_BACKUP" = " , um Ihren gesamten Posteingang auf Drive zu speichern, damit die Daten immer gesichert werden.";
+"YOU_NEED_PRO_MESSAGE_SEND_LATER" = " , um eine E-Mail zu einem späteren Zeitpunkt zu senden.";
+"YOU_NEED_PRO_REMOVE" = "Entfernen Sie";
+"YOU_NEED_PRO_MESSAGE_FOOTER" = " , wenn Sie Nicht-Criptext-Adressen per E-Mail senden.";

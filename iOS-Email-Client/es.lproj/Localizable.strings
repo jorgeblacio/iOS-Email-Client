@@ -459,3 +459,16 @@
 "Unable to add label" = "";
 "EDIT" = "Editar";
 "EDIT_LABEL_DIALOG_TITLE" = "Editar Etiqueta";
+"YOU_NEED_PRO_TITLE" = "Necesitas Pro";
+"CRIPTEXT_PRO" = "Criptext Pro";
+"CRIPTEXT_PRO_USE" = "Usa";
+"CRIPTEXT_PRO_REMOVE" = "Remueve";
+"YOU_NEED_PRO_BUTTON" = "Obtener Pro";
+"YOU_NEED_PRO_NO_THANKS" = "No Gracias";
+"YOU_NEED_PRO_MESSAGE_FIXED" = "Obtén esta función y más cuando actualices a ";
+"YOU_NEED_PRO_MESSAGE_READ_RECEIPTS" = " para saber cuándo leen tus correos, los destinatarios tendrán marcas de verificación azules.";
+"YOU_NEED_PRO_MESSAGE_UNSEND" = " para corregir algún error y recuperar un correo después de haberlo enviado."
+"YOU_NEED_PRO_MESSAGE_REMINDERS" = " para recibir una notificación cuando sea el momento de seguir una conversación.";
+"YOU_NEED_PRO_MESSAGE_CLOUD_BACKUP" = " para almacenar toda tu bandeja de entrada en Drive para que los datos siempre estén respaldados.";
+"YOU_NEED_PRO_MESSAGE_SEND_LATER" = " para programar un correo electrónico que se enviará más adelante.";
+"YOU_NEED_PRO_MESSAGE_FOOTER" = " al enviar correos electrónicos a cuentas que no sean de Criptext.";

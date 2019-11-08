@@ -24,6 +24,7 @@ class CriptextFileManager {
     var registeredFiles = [File]()
     var apiManager: APIManager.Type = APIManager.self
     weak var delegate: CriptextFileDelegate?
+    var groupId: String = ""
     
     var keyPairs = [Int: (Data, Data)]()
     var encryption : Bool {
@@ -53,12 +54,15 @@ class CriptextFileManager {
         fileRegistry.requestType = .upload
         fileRegistry.chunksProgress = Array(repeating: PENDING, count: totalChunks)
         self.registeredFiles.insert(fileRegistry, at: 0)
-        let requestData = [
+        var requestData = [
             "filesize": fileSize,
             "filename": name,
             "totalChunks": totalChunks,
             "chunkSize": chunkSize
             ] as [String : Any]
+        if(self.groupId != "") {
+            requestData["groupId"] = self.groupId
+        }
         apiManager.registerFile(token: myAccount.jwt, parameters: requestData) { [weak self] (responseData) in
             guard let weakSelf = self else {
                 fileRegistry.requestStatus = .failed
@@ -77,6 +81,9 @@ class CriptextFileManager {
                 return
             }
             let filetoken = fileResponse["filetoken"] as! String
+            if(weakSelf.groupId == "") {
+                weakSelf.groupId = fileResponse["groupId"] as! String
+            }
             fileRegistry.token = filetoken
             weakSelf.handleFileTurn()
         }
@@ -197,12 +204,15 @@ class CriptextFileManager {
     
     private func uploadChunk(_ chunk: Data, file: File, part: Int){
         let filetoken = file.token
-        let params = [
+        var params = [
             "part": part + 1,
             "filetoken": filetoken,
             "filename": file.name,
             "mimeType": file.mimeType
         ] as [String: Any]
+        if(self.groupId != "") {
+            params["groupId"] = self.groupId
+        }
         apiManager.uploadChunk(chunk: chunk, params: params, token: myAccount.jwt, progressDelegate: self) { [weak self] (responseData) in
             guard let weakSelf = self else {
                 return
